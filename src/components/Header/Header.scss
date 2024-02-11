@@ -1,0 +1,28 @@
+.header {
+  &__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 200px;
+  height: 100px;
+
+  border: 1px solid #808080;
+}
+}
+
+.nav {
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    background-color: #000;
+    height: 30px;
+  }
+
+  &__link {
+    color: #fff;
+  }
+}

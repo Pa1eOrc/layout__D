@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #000;
+}
+
+.App {
+  max-width: 1024px;
+  margin: 0 auto;
+
+  background-color: #fff;
+}
+
+.icon {
+  display: block;
+  background-repeat: no-repeat;
+
+  &--arow {
+    background-image: url(../public/img/icons/Arrow.svg);
+    width: 16px;
+    height: 16px;
+    transform: rotate(90deg);
+  }
+
+  &--fav {
+    background-image: url(../public/img/icons/Favourites.svg);
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+  }
+}
